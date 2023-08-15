@@ -10,3 +10,37 @@ button{
     justify-content: center;
     align-items: center;
 }
+
+#main{
+    padding: auto;
+    margin: 10px;
+}
+.btn{
+    color:  #27aedb;
+    background-color: darkgray;
+}
+.delete-btn{
+   background-color: #27aedb;
+   color: red;
+}
+.title{
+    background-color: chartreuse;
+    
+}
+.single-tour{
+    padding: 10px;
+    margin-top: 20px;
+}
+.tour-info{
+    color: darkblue;
+    
+}
+.tour-price{
+    color: darkgreen;
+    padding: 5px;
+    background-color: darkgray;
+    width: 50px;
+}
+.loading{
+    color: crimson;
+}

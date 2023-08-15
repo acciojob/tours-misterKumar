@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Tour from './Tour';
 import tourData from './TourData'; // Import the predefined tour data
+import "../styles/App.css";
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -22,15 +23,15 @@ const App = () => {
 
   if (loading) {
     return (
-      <div className="main">
-        <h2 className="title">Loading...</h2>
+      <div id="main">
+        <h2 className="loading">Loading...</h2>
       </div>
     );
   }
 
   if (tours.length === 0) {
     return (
-      <div className="main">
+      <div id="main">
         <h2 className="title">No more tours</h2>
         <button className="btn" onClick={refreshTours}>
           Refresh
@@ -40,7 +41,7 @@ const App = () => {
   }
 
   return (
-    <div className="main">
+    <div id="main">
       <h2 className="title">Our Tours</h2>
       <div>
         {tours.map((tour) => (
