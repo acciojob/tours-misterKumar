@@ -19,9 +19,15 @@ button{
     color:  #27aedb;
     background-color: darkgray;
 }
-.delete-btn{
+#delete-btn-rec6d6T3q5EBIdCfD{
    background-color: #27aedb;
    color: red;
+}
+.delete-btn{
+    padding: auto;
+}
+#tour-item-para-rec6d6T3q5EBIdCfD{
+    padding: auto;
 }
 .title{
     background-color: chartreuse;
